@@ -40,3 +40,53 @@ background-color: #3498db;
 #reset{
 background-color: rgb(255, 4, 4);
 }
+
+/* Responsive  */  
+
+
+@media screen and (max-width: 912px) {
+    body{
+        align-items: flex-start;
+        margin-top: 300px;
+    }
+} 
+
+@media screen and (max-width: 820px) {
+    .digit {
+        font-size: 100px;
+    }
+    body{
+        align-items: flex-start;
+        margin-top: 300px;
+    }
+   
+}
+
+@media screen and (max-width: 540px) {
+    body{
+        align-items: flex-start;
+        margin-top: 300px;
+    }
+    .digit {
+        font-size: 50px;
+    }
+    .txt {
+        font-size: 26px;
+       
+    }
+} 
+@media screen and (max-width: 280px){
+.digit {
+    font-size: 38px;
+    
+}
+.txt {
+    font-size: 18px;
+}
+.btn {
+    padding: 7px 14px;
+    font-size: 15px;
+    margin: 0px 8px;
+
+}
+}
